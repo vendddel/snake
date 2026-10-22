@@ -1,0 +1,10 @@
+﻿<Window x:Class="SnakeGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Snake" Width="420" Height="470"
+        KeyDown="Window_KeyDown">
+    <DockPanel>
+        <TextBlock x:Name="ScoreText" HorizontalAlignment="Center" FontWeight="Bold" DockPanel.Dock="Top" Text="Pont: 0" Margin="5" FontSize="24"/>
+        <Canvas x:Name="Board" Width="400" Height="400" Background="DarkSlateGray"/>
+    </DockPanel>
+</Window>
